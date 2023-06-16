@@ -17,3 +17,5 @@ cli
     console.log("build", root)
   })
 
+cli.parse()
+
