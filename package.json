@@ -1,0 +1,20 @@
+{
+  "name": "harbor",
+  "version": "1.0.0",
+  "description": "基于vite的ssg框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoFeng5210/Harbor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoFeng5210/Harbor/issues"
+  },
+  "homepage": "https://github.com/xiaoFeng5210/Harbor#readme"
+}
