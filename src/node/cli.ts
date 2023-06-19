@@ -8,7 +8,7 @@ cli
   .command("[root]", "start dev server")
   .alias("dev")
   .action(async (root: string) => {
-    console.log("dev", root)
+    console.log(root)
   })
 
 cli
