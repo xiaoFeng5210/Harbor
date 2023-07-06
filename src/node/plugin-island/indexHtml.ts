@@ -1,5 +1,5 @@
 import { Plugin } from 'vite'
-import { readFile } from 'fs'
+import { readFile } from 'fs/promises'
 import { DEFAULT_TEMPLATE_PATH } from '../constants'
 export function pluginIndexHtml(): Plugin {
   return {
