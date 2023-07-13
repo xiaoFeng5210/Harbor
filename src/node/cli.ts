@@ -1,11 +1,12 @@
 import { cac } from 'cac';
 import { createDevServer } from "./dev";
+import { build } from './build';
 const path = require('path');
 
 const version = require('../../package.json').version;
 
 const cli = cac('island').version(version).help()
-
+ 
 cli
   .command("[root]", "start dev server")
   .alias("dev")
@@ -18,8 +19,9 @@ cli
   })
 
 cli
-  .command("build [root]", "build for production")
+  .command("build [root]", "build in production")
   .action(async (root: string) => {
+    await build(root)
   })
 
 cli.parse()
